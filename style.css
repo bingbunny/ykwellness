@@ -157,7 +157,7 @@ section { padding: 6rem 0; }
 .nav__links a {
   font-size: 0.88rem;
   font-weight: 500;
-  color: var(--mid);
+  color: var(--white);
   padding: 0.4rem 0.75rem;
   border-radius: 6px;
   transition: var(--transition);
