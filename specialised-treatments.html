@@ -8,13 +8,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="LOGOYKW.png" type="image/png" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <nav class="nav" id="nav">
   <div class="container">
     <div class="nav__inner">
-      <a href="index.html" class="nav__logo">YK<span>Wellness</span></a>
+      <a href="index.html" class="nav__logo"><img src="LOGOYKW.png" alt="YK Wellness" class="nav__logo-img"></a>
       <div class="nav__links">
         <a href="index.html">Home</a>
         <div class="nav__dropdown">
@@ -37,7 +38,9 @@
     </div>
   </div>
 </nav>
+<div class="nav__mobile-overlay" id="mobileOverlay"></div>
 <div class="nav__mobile" id="mobileNav">
+  <button class="nav__mobile-close" id="mobileClose" aria-label="Close menu">&times;</button>
   <a href="index.html">Home</a>
   <a href="massage-therapy.html">Massage Therapy</a>
   <div class="nav__mobile-sub">
@@ -238,7 +241,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="index.html" class="footer-logo">YK<span>Wellness</span></a>
+        <a href="index.html" class="footer-logo"><img src="LOGOYKW.png" alt="YK Wellness" style="height:56px;width:auto;"></a>
         <p>Expert massage therapy and osteopathy in West London. Bespoke treatments at Westway Sports Centre.</p>
         <div class="footer-social">
           <a href="https://www.facebook.com/ykwellness.london/" target="_blank" class="social-btn" aria-label="Facebook">f</a><a href="https://www.instagram.com/ykwellness/" target="_blank" class="social-btn" aria-label="Instagram"><a href="#" class="social-btn">&#9674;</a>#9674;</a><a href="https://api.whatsapp.com/send/?phone=%2B447910007933&text&type=phone_number&app_absent=0" class="social-btn">&#128172;</a>
